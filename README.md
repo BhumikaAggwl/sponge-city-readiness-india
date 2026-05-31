@@ -205,6 +205,80 @@ The dashboard enables interactive exploration of readiness patterns, hotspot ide
 
 ---
 
+---
+
+## Running the Interactive Dashboard
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/BhumikaAggwl/sponge-city-readiness-india.git
+cd sponge-city-readiness-india
+```
+
+### 2. Create Virtual Environment (Recommended)
+
+```bash
+python -m venv venv
+source venv/bin/activate      # Linux / MacOS
+
+# Windows
+venv\Scripts\activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Launch the Dashboard
+
+```bash
+streamlit run dashboard/app.py
+```
+
+The dashboard will automatically open in your browser at:
+
+```text
+http://localhost:8501
+```
+
+---
+
+## Dashboard Features
+
+The Streamlit dashboard provides:
+
+- Interactive SCRI Spatial Distribution Map
+- Sponge City Readiness Class Filtering
+- SCRI Distribution Analysis
+- Priority Intervention Zone Identification
+- Feature-wise Data Exploration
+- Dataset Inspection and Download
+- Climate Risk Visualization
+
+---
+
+## Reproducing Results
+
+The notebooks should be executed in the following order:
+
+```text
+01_rainfall_feature_engineering.ipynb
+        ↓
+02_scri_development_and_risk_mapping.ipynb
+        ↓
+03_climate_risk_modeling.ipynb
+        ↓
+04_model_explainability_shap.ipynb
+        ↓
+05_interactive_decision_dashboard.ipynb
+```
+
+This workflow reproduces all figures, machine learning models, SCRI calculations, risk maps, SHAP explanations, and dashboard outputs presented in the report.
+
+---
 # 🛠 Technology Stack
 
 - Python
