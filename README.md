@@ -172,17 +172,14 @@ SHAP quantifies the contribution of individual indicators and improves transpare
 
 ![Dashboard Map](figures/dashboard_map.png)
 
-### Distribution Analytics
+## Distribution Analytics
 
-![Dashboard Analytics](figures/dashboard_analytics.png)
 
-### Priority Zones & Feature Explorer
+## Priority Zones & Feature Explorer
 
-![Dashboard Priority](figures/dashboard_priority.png)
 
-### Dataset Explorer
+## Dataset Explorer
 
-![Dashboard Dataset](figures/dashboard_dataset.png)
 
 The dashboard enables interactive exploration of readiness patterns, hotspot identification, and geospatial analysis.
 
