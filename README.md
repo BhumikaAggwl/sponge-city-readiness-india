@@ -24,7 +24,7 @@ to identify vulnerable regions and support climate-resilient planning.
 
 # 🖼 Project Architecture
 
-![Architecture](figures/fig01_methodology_pipeline.png)
+![Architecture](figures/ieee_ps5_architecture_figure1.png)
 
 ---
 
